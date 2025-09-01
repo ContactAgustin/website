@@ -1,134 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon | Agustin</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #D1EAEB;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #333;
-            overflow: hidden;
-        }
-
-        .container {
-            text-align: center;
-            z-index: 2;
-            position: relative;
-            max-width: 600px;
-            padding: 2rem;
-        }
-
-        .logo {
-            font-size: 4rem;
-            font-weight: 300;
-            color: #333;
-            margin: 0;
-            font-family: 'Times New Roman', Times, serif;
-        }
-
-        .subtitle {
-            display: none;
-        }
-
-        .main-message {
-            display: none;
-        }
-
-        .description {
-            display: none;
-        }
-
-        .contact-info {
-            display: none;
-        }
-
-        .contact-info a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.1rem;
-            border: 2px solid rgba(255,255,255,0.3);
-            padding: 12px 24px;
-            border-radius: 30px;
-            transition: all 0.3s ease;
-            display: inline-block;
-            margin: 0 10px;
-            backdrop-filter: blur(10px);
-        }
-
-        .contact-info a:hover {
-            background: rgba(255,255,255,0.2);
-            border-color: rgba(255,255,255,0.6);
-            transform: translateY(-2px);
-        }
-
-        .floating-shapes {
-            display: none;
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            33% { transform: translateY(-20px) rotate(120deg); }
-            66% { transform: translateY(20px) rotate(240deg); }
-        }
-
-        @media (max-width: 768px) {
-            .main-message {
-                font-size: 2.5rem;
-            }
-            
-            .logo {
-                font-size: 2rem;
-            }
-            
-            .container {
-                padding: 1rem;
-            }
-            
-            .contact-info a {
-                display: block;
-                margin: 10px 0;
-            }
-        }
-    </style>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>waterbearer</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
-    <div class="floating-shapes">
-        <div class="shape"></div>
-        <div class="shape"></div>
-        <div class="shape"></div>
-        <div class="shape"></div>
-    </div>
-
     <div class="container">
-        <div class="logo">waterbearer</div>
+        <h1>WATERBEARER</h1>
+        
+        <img src="images/aquarius.jpg" alt="Aquarius image">
+
+        <h2>About This Site</h2>
+        <p>A collection of information that I've put together. Feel free to look through the links below.</p>
+
+        <h2>Links</h2>
+        <p>Explore at your own pace.</p>
+
+        <ul>
+            <li><a href="posts/001.html">Understanding Cannabis Terpenes</a></li>
+        </ul>
+        
+        <div class="footer">
+            <p>&copy; 2025 Agustin Alexander Rodriguez. All rights reserved.</p>
+        </div>
     </div>
 </body>
 </html>
